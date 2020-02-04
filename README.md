@@ -8,6 +8,6 @@ Para fazer a instalação é necessário instalar suas dependencias.
 
 Feita a instalação, temos que iniciar o servidor com o seguinte comando.
 
-### `npm start`
+### `npm run start`
 
 Após isso é so abrir [http://localhost:3000](http://localhost:3000) para ver a aplicação no seu navegador.

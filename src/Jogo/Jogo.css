@@ -1,0 +1,62 @@
+body{
+	background: url('/background.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+#container{
+	box-shadow: 1px 1px 1px 1px #000;
+	margin: 10% auto 0;
+	max-width: 400px;
+	background-color: #fff;
+	padding-bottom: 1px;
+	margin-bottom: 10px;
+}
+
+p{
+	text-align: left;
+	font-size: 1.3rem;
+	padding-left: 10px;
+	line-height: 1;
+	text-transform: capitalize;
+}
+
+p.center{
+	text-align: center;
+	padding: 0;
+}
+.bold{
+	font-weight: bold;
+}
+
+button{
+	padding: 10px;
+	background-color: #FFE81F;
+	border: none;
+	width: 100%;
+	max-width: 400px;
+	font-size: 1.5rem;
+}
+
+h1{
+	width: 100%;
+	background-color: #cccccc;
+	padding: 10px 0;
+	font-size: 2rem;
+}
+
+.loader {
+	border: 16px solid #000;
+	border-top: 16px solid #FFE81F;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	animation: spin 2s linear infinite;
+	display: flex;
+	align-self: center;
+	margin: 15% auto 0;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
